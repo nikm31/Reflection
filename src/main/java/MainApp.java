@@ -3,14 +3,14 @@ import java.util.*;
 
 public class MainApp {
     public static void main(String[] args) {
-        MethodsForTests test = new MethodsForTests();
-        Class testClass = MethodsForTests.class;
-        Method[] allMethods = testClass.getDeclaredMethods();
-        List<Method> methodsTest = new ArrayList<>();
 /*
         тут так и не разобрался как рефлексией создать экземпляр класса и использовать его в invoke
         так же пробовал реализовать через HashMap, где ключ преоритет
 */
+        MethodsForTests test = new MethodsForTests();
+        Class testClass = MethodsForTests.class;
+        Method[] allMethods = testClass.getDeclaredMethods();
+        List<Method> methodsTest = new ArrayList<>();
         short as = 0;
         short bs = 0;
         Method before = null;
