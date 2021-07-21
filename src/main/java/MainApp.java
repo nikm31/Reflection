@@ -7,6 +7,10 @@ public class MainApp {
         Class testClass = MethodsForTests.class;
         Method[] allMethods = testClass.getDeclaredMethods();
         List<Method> methodsTest = new ArrayList<>();
+/*
+        тут так и не разобрался как рефлексией создать экземпляр класса и использовать его в invoke
+        так же пробовал реализовать через HashMap, где ключ преоритет
+*/
         short as = 0;
         short bs = 0;
         Method before = null;
