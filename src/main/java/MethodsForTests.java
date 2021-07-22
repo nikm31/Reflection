@@ -9,8 +9,6 @@ public class MethodsForTests {
         this.a = a;
     }
 
-    public MethodsForTests() {
-    }
 
     @BeforeSuite
     void printBefore(){
